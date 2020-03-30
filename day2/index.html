@@ -1,17 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stock Market Survey</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <section>
-    <img src="../img/survey.svg" alt="Stock">
-    <form >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market Survey</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <img src="../img/survey.svg" alt="Stock">
+      <form>
+        <aside>
+          <h1>Market Research Survey Form</h1>
+          <p>
+            Do participate in our market survey. It will help us a lot to give
+            you better service ahead.<br> Just fill out the form
+          </p>
+          <hr />
+        </aside>
+        <div class=" center">
+          <input type="text" name="" id="" placeholder="Your Name" />
+          <legend>Gender</legend>
+          <fieldset>
+            <div class="inputGroup">
+              <input id="radio1" name="radio" type="radio"/>
+              <label for="radio1">Male</label>
+            </div>
+            <div class="inputGroup">
+              <input id="radio2" name="radio" type="radio"/>
+              <label for="radio2">Female</label>
+            </div>
+          
+          </fieldset>
+          <fieldset>
+            <input type="email" name="" id="" placeholder="Email id"><br>
+            <input type="tel" name="" id="" placeholder="Contact No."><br>
+            <input type="number" name="" id="" placeholder="Age">
+            <fieldset>
+              <label for="salary">Salary range</label>
+              <select id="salary">
+                <option value="up to ">Above $3000</option>
+                <option value="saab">Up to $2500</option>
+                <option value="mercedes">Less than $2500</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <legend>Which of the following products have you purchased?</legend>
+            
+             <div class="inputGroup">
+              <input id="option1" name="option1" type="checkbox"/>
+              <label for="option1">Product 1</label>
+            </div>
+            <div class="inputGroup">
+              <input id="option2" name="option2" type="checkbox"/>
+              <label for="option2">Product 2</label>
+            </div>
+            <div class="inputGroup">
+              <input id="option3" name="option3" type="checkbox"/>
+              <label for="option3">Product 3</label>
+            </div>
+            <div class="inputGroup">
+              <input id="option4" name="option4" type="checkbox"/>
+              <label for="option4">Product 4</label>
+            </div>
+            </fieldset>
+          </fieldset>
+          <fieldset>
+            <legend>How often do you purchase our product?</legend>
+           
+            <div class="inputGroup">
+              <input id="radio1" name="sometimes" type="radio"/>
+              <label for="radio1">Everytime it is required</label>
+            </div>
+            <div class="inputGroup">
+              <input id="radio2" name="radio" type="radio"/>
+              <label for="radio2">Sometimes</label>
+            </div>
+            <div class="inputGroup">
+              <input id="radio2" name="radio" type="radio"/>
+              <label for="radio2">Rarely</label>
+            </div>
+            
+           
 
-    </form>
-  </section>
-</body>
+            <fieldset>
+              <textarea  placeholder='What do you like most about this product' ></textarea>
+              <textarea  placeholder='What specific benefits do you look for' ></textarea>
+            </fieldset>
+            <fieldset>
+              <input type="text" name="" id="" placeholder="Address Line 1">
+              <input type="text" name="" id="" placeholder="Address Line 2">
+              <input type="text" name="" id="" placeholder="City">
+              <input type="text" name="" id="" placeholder="State">
+              <input type="text" name="" id="" placeholder="Country">
+
+            </fieldset>
+          </fieldset>
+          
+        </div>
+        
+        <input type="submit" value="Submit" align="center">
+      </form>
+    </section>
+  </body>
 </html>
