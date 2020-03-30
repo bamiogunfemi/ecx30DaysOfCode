@@ -1,0 +1,13 @@
+.general{
+ 
+  border: none;
+}
+#one{
+  background-color: #FFD6BC;
+}
+h1{
+  text-align: center;
+}
+a{
+  cursor: pointer;
+}
