@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Baloo 2', cursive;
+  overflow-x: hidden;
+  color: #3C454C;
+  text-align: center;
+
+  background: url('../img/green-log.jpg');
+}
+
+img {
+  width: 15rem;
+}
+
+section {
+  display: flex;
+  width: 100%;
+
+
+  justify-content: center;
+}
+
+input[ type=text],
+[type=email],
+[type=tel],
+[type=password] {
+  width: 360px;
+  font: inherit;
+  display: block;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+  border: 0;
+  outline: 0;
+  padding: 15px;
+  margin: 1rem;
+}
+
+input[type=submit] {
+  margin: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #3C454C;
+  padding: 15px;
+  width: 92%;
+  cursor: pointer;
+  border-radius: 2px;
+  display: block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+label {
+  font-size: large;
+  margin-left: 1rem;
+  width: 55%;
+  display: block;
+  text-align: left;
+  color: #3C454C;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: color 200ms ease-in;
+  transition: color 200ms ease-in;
+  overflow: hidden;
+}
